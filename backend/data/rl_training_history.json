@@ -1,0 +1,1367 @@
+{
+  "metadata": {
+    "algorithm": "REINFORCE (Policy Gradient) with Baseline",
+    "episodes": 150,
+    "gamma": 0.95,
+    "train_sizes": [
+      4,
+      5,
+      6,
+      8
+    ],
+    "device": "cpu",
+    "total_time_seconds": 1.9
+  },
+  "episodes": [
+    {
+      "episode": 1,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.0,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 2,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.0,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 3,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.0,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 4,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.0,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 5,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -2.1,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 6,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.09,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 7,
+      "n": 8,
+      "total_reward": -3.0,
+      "running_reward": -2.18,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 8,
+      "n": 6,
+      "total_reward": -4.0,
+      "running_reward": -2.36,
+      "steps": 4,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 9,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -2.43,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 10,
+      "n": 4,
+      "total_reward": -4.0,
+      "running_reward": -2.58,
+      "steps": 2,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 11,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.53,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 12,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -2.57,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 13,
+      "n": 8,
+      "total_reward": -2.0,
+      "running_reward": -2.52,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 14,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.46,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 15,
+      "n": 6,
+      "total_reward": -3.0,
+      "running_reward": -2.52,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 16,
+      "n": 6,
+      "total_reward": -4.0,
+      "running_reward": -2.67,
+      "steps": 4,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 17,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.6,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 18,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.54,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 19,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.59,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 20,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.53,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 21,
+      "n": 5,
+      "total_reward": -1.0,
+      "running_reward": -2.37,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 22,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.24,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 23,
+      "n": 6,
+      "total_reward": -4.0,
+      "running_reward": -2.41,
+      "steps": 4,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 24,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.37,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 25,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.23,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 26,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.21,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 27,
+      "n": 5,
+      "total_reward": -1.0,
+      "running_reward": -2.09,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 28,
+      "n": 4,
+      "total_reward": -5.0,
+      "running_reward": -2.38,
+      "steps": 3,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 29,
+      "n": 4,
+      "total_reward": -4.0,
+      "running_reward": -2.54,
+      "steps": 2,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 30,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.39,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 31,
+      "n": 6,
+      "total_reward": -1.0,
+      "running_reward": -2.25,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 32,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.22,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 33,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.2,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 34,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.18,
+      "steps": 2,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 35,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.06,
+      "steps": 3,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 36,
+      "n": 5,
+      "total_reward": -4.0,
+      "running_reward": -2.26,
+      "steps": 2,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 37,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.13,
+      "steps": 5,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 38,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.22,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 39,
+      "n": 5,
+      "total_reward": -5.0,
+      "running_reward": -2.5,
+      "steps": 3,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 40,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.35,
+      "steps": 3,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 41,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.31,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 42,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.28,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 43,
+      "n": 8,
+      "total_reward": -2.0,
+      "running_reward": -2.25,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 44,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.33,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 45,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.19,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 46,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.28,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 47,
+      "n": 6,
+      "total_reward": -1.0,
+      "running_reward": -2.15,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 48,
+      "n": 8,
+      "total_reward": 0.0,
+      "running_reward": -1.93,
+      "steps": 6,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 49,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -1.94,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 50,
+      "n": 4,
+      "total_reward": -5.0,
+      "running_reward": -2.25,
+      "steps": 3,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 51,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -2.32,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 52,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.39,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 53,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.35,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 54,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.32,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 55,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -2.38,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 56,
+      "n": 6,
+      "total_reward": -3.0,
+      "running_reward": -2.45,
+      "steps": 5,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 57,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.4,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 58,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.26,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 59,
+      "n": 8,
+      "total_reward": -2.0,
+      "running_reward": -2.23,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 60,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.31,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 61,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.28,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 62,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.15,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 63,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.14,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 64,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -2.22,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 65,
+      "n": 5,
+      "total_reward": -4.0,
+      "running_reward": -2.4,
+      "steps": 4,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 66,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.36,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 67,
+      "n": 5,
+      "total_reward": -4.0,
+      "running_reward": -2.52,
+      "steps": 4,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 68,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.47,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 69,
+      "n": 6,
+      "total_reward": -4.0,
+      "running_reward": -2.62,
+      "steps": 4,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 70,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -2.66,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 71,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.5,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 72,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.35,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 73,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.31,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 74,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.28,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 75,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.25,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 76,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.33,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 77,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.29,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 78,
+      "n": 8,
+      "total_reward": -2.0,
+      "running_reward": -2.27,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 79,
+      "n": 6,
+      "total_reward": -3.0,
+      "running_reward": -2.34,
+      "steps": 3,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 80,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.3,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 81,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.27,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 82,
+      "n": 5,
+      "total_reward": -4.0,
+      "running_reward": -2.45,
+      "steps": 2,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 83,
+      "n": 8,
+      "total_reward": 0.0,
+      "running_reward": -2.2,
+      "steps": 6,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 84,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.28,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 85,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.25,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 86,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.13,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 87,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.12,
+      "steps": 2,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 88,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.2,
+      "steps": 3,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 89,
+      "n": 5,
+      "total_reward": -1.0,
+      "running_reward": -2.08,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 90,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.08,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 91,
+      "n": 4,
+      "total_reward": -5.0,
+      "running_reward": -2.37,
+      "steps": 3,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 92,
+      "n": 6,
+      "total_reward": -1.0,
+      "running_reward": -2.23,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 93,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.31,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 94,
+      "n": 4,
+      "total_reward": -4.0,
+      "running_reward": -2.48,
+      "steps": 2,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 95,
+      "n": 8,
+      "total_reward": 0.0,
+      "running_reward": -2.23,
+      "steps": 6,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 96,
+      "n": 6,
+      "total_reward": -1.0,
+      "running_reward": -2.11,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 97,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.2,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 98,
+      "n": 4,
+      "total_reward": -5.0,
+      "running_reward": -2.48,
+      "steps": 3,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 99,
+      "n": 6,
+      "total_reward": -1.0,
+      "running_reward": -2.33,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 100,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.3,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 101,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.27,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 102,
+      "n": 6,
+      "total_reward": -1.0,
+      "running_reward": -2.14,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 103,
+      "n": 4,
+      "total_reward": -2.0,
+      "running_reward": -2.13,
+      "steps": 2,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 104,
+      "n": 8,
+      "total_reward": 0.0,
+      "running_reward": -1.91,
+      "steps": 6,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 105,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -1.82,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 106,
+      "n": 8,
+      "total_reward": 1.0,
+      "running_reward": -1.54,
+      "steps": 7,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 107,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -1.69,
+      "steps": 3,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 108,
+      "n": 4,
+      "total_reward": -4.0,
+      "running_reward": -1.92,
+      "steps": 2,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 109,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -1.93,
+      "steps": 4,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 110,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -2.03,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 111,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -1.93,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 112,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -1.84,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 113,
+      "n": 4,
+      "total_reward": -4.0,
+      "running_reward": -2.05,
+      "steps": 2,
+      "invalid_count": 1,
+      "success": false
+    },
+    {
+      "episode": 114,
+      "n": 5,
+      "total_reward": -3.0,
+      "running_reward": -2.15,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 115,
+      "n": 5,
+      "total_reward": -1.0,
+      "running_reward": -2.03,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 116,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.13,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 117,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.22,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 118,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.29,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 119,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -2.17,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 120,
+      "n": 8,
+      "total_reward": -2.0,
+      "running_reward": -2.15,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 121,
+      "n": 6,
+      "total_reward": -1.0,
+      "running_reward": -2.03,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 122,
+      "n": 8,
+      "total_reward": 0.0,
+      "running_reward": -1.83,
+      "steps": 6,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 123,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -1.85,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 124,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -1.86,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 125,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -1.88,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 126,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -1.79,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 127,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -1.91,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 128,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -1.82,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 129,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -1.84,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 130,
+      "n": 8,
+      "total_reward": 0.0,
+      "running_reward": -1.65,
+      "steps": 6,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 131,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -1.79,
+      "steps": 1,
+      "invalid_count": 0,
+      "success": false
+    },
+    {
+      "episode": 132,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -1.91,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 133,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -1.92,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 134,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -1.83,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 135,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -1.84,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 136,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -1.86,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 137,
+      "n": 4,
+      "total_reward": -5.0,
+      "running_reward": -2.17,
+      "steps": 3,
+      "invalid_count": 2,
+      "success": false
+    },
+    {
+      "episode": 138,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.26,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 139,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.33,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 140,
+      "n": 5,
+      "total_reward": -1.0,
+      "running_reward": -2.2,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 141,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.18,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 142,
+      "n": 6,
+      "total_reward": -2.0,
+      "running_reward": -2.16,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 143,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -2.14,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 144,
+      "n": 8,
+      "total_reward": 0.0,
+      "running_reward": -1.93,
+      "steps": 6,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 145,
+      "n": 8,
+      "total_reward": -1.0,
+      "running_reward": -1.84,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 146,
+      "n": 5,
+      "total_reward": -2.0,
+      "running_reward": -1.85,
+      "steps": 4,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 147,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -1.97,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 148,
+      "n": 5,
+      "total_reward": -1.0,
+      "running_reward": -1.87,
+      "steps": 5,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 149,
+      "n": 8,
+      "total_reward": -3.0,
+      "running_reward": -1.98,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    },
+    {
+      "episode": 150,
+      "n": 4,
+      "total_reward": -3.0,
+      "running_reward": -2.09,
+      "steps": 3,
+      "invalid_count": 3,
+      "success": false
+    }
+  ]
+}
