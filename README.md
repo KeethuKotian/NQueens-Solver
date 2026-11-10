@@ -190,8 +190,8 @@ Nqueens/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/Nqueens.git
-cd Nqueens
+git clone https://github.com/KeethuKotian/NQueens-Solver
+cd NQueens-Solvar
 ```
 
 ---
